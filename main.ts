@@ -1,14 +1,14 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("The A button!")
+    basic.showString("A")
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("A and B button!")
+    basic.showString("A/B")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("The B button!")
+    basic.showString("B")
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showString("Logo Pressed!")
+    basic.showString("Logo")
 })
 basic.forever(function () {
 	
